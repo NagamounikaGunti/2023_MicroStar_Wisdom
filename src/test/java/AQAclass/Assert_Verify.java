@@ -21,7 +21,17 @@ public class Assert_Verify {
 	  String Expectedvalue=driver.findElement(By.xpath("//b[normalize-space()='$398']")).getText();
 	  System.out.println(Expectedvalue);
 	  Thread.sleep(10000);
-	  try {
+	 /* try {
+		  System.out.println("welcome to selenium");
+		  Assert.assertEquals(Actualvalue, Expectedvalue);
+		
+	} finally {
+		// TODO: handle finally clause
+		  System.out.println("apple");
+		  System.out.println("mapple");
+		
+	}*/
+	  /*try {
 		  System.out.println("welcome to selenium");
 		  Assert.assertEquals(Actualvalue, Expectedvalue);
 		  //System.out.println("apple");
@@ -37,7 +47,28 @@ public class Assert_Verify {
 		  
 		  
 		  
-	}
+	}*/
+	  try {
+			
+
+			// 1st statement 
+			System.out.println("Assertion starts here...");
+						    
+			//22222222 
+			Assert.assertEquals(Actualvalue, Expectedvalue);
+			
+			
+			
+		} finally {
+			
+			// 3rd statement 
+						System.out.println("Apple");
+						  
+						// 4t statement 
+						System.out.println("A blog for Software Testers");
+		}
+	
+
 	  
   }
   @BeforeTest

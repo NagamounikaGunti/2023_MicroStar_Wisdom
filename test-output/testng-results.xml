@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-08T20:39:18 IST" name="Default suite" finished-at="2024-03-08T20:39:39 IST" duration-ms="20941">
+  <suite started-at="2024-03-22T14:59:14 IST" name="Default suite" finished-at="2024-03-22T14:59:49 IST" duration-ms="34785">
     <groups>
     </groups>
-    <test started-at="2024-03-08T20:39:18 IST" name="Default test" finished-at="2024-03-08T20:39:39 IST" duration-ms="20941">
-      <class name="AQAclass.FilpkartGeneric">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:AQAclass.FilpkartGeneric@7334aada]" started-at="2024-03-08T20:39:18 IST" name="beforeTest" finished-at="2024-03-08T20:39:24 IST" duration-ms="5617" status="PASS">
+    <test started-at="2024-03-22T14:59:14 IST" name="Default test" finished-at="2024-03-22T14:59:49 IST" duration-ms="34785">
+      <class name="BQA_Class.Datadriven">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:BQA_Class.Datadriven@7c729a55]" started-at="2024-03-22T14:59:15 IST" name="beforeTest" finished-at="2024-03-22T14:59:18 IST" duration-ms="3268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="clickable()[pri:0, instance:AQAclass.FilpkartGeneric@7334aada]" started-at="2024-03-08T20:39:24 IST" name="clickable" finished-at="2024-03-08T20:39:39 IST" duration-ms="15286" status="PASS">
+        <test-method signature="f()[pri:0, instance:BQA_Class.Datadriven@7c729a55]" started-at="2024-03-22T14:59:18 IST" name="f" finished-at="2024-03-22T14:59:49 IST" duration-ms="31473" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickable -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:AQAclass.FilpkartGeneric@7334aada]" started-at="2024-03-08T20:39:39 IST" name="afterTest" finished-at="2024-03-08T20:39:39 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:BQA_Class.Datadriven@7c729a55]" started-at="2024-03-22T14:59:49 IST" name="afterTest" finished-at="2024-03-22T14:59:49 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- AQAclass.FilpkartGeneric -->
+      </class> <!-- BQA_Class.Datadriven -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

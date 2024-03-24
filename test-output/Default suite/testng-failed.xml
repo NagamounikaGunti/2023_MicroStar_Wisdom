@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AQAclass.Assert_Verify">
+      <class name="BQA_Class.Datadriven">
         <methods>
-          <include name="afterTest"/>
-          <include name="funoperation"/>
+          <include name="f"/>
           <include name="beforeTest"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- AQAclass.Assert_Verify -->
+      </class> <!-- BQA_Class.Datadriven -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
